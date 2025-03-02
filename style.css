@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+section {
+  height: 100vh;
+  background-color: #23282a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+.cont01 .title {
+  font-size: 120px;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+.cont01 .title span {
+  -webkit-text-stroke: #b1dd40 2px;
+  color: transparent;
+  display: block;
+}
+.cont02 ul {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  color: #23282a;
+  font-weight: bold;
+}
+.cont02 ul li {
+  width: 22%;
+  background-color: #fed700;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cont03 {
+  position: relative;
+  overflow: hidden;
+}
+.cont03 .contitle {
+  font-size: 100px;
+  -webkit-text-stroke: #b1dd40 2px;
+  color: transparent;
+  display: block;
+}
+.cont03 span {
+  display: block;
+  width: 250px;
+  height: 350px;
+  background-color: #fee8b0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  font-size: 28px;
+  font-weight: bold;
+}
+.cont03 span.a {
+  transform: translate(-50%, -50%) rotate(-12deg);
+}
+.cont03 span.b {
+  background-color: #ffbbcc;
+  transform: translate(-50%, -50%) rotate(12deg);
+}
+.cont03 span.c {
+  background-color: #ffcccc;
+  transform: translate(-50%, -50%) rotate(-15deg);
+}
+.cont03 span.d {
+  background-color: #df9773;
+  transform: translate(-50%, -50%) rotate(18deg);
+}
+.cont03 span.e {
+  background-color: #d9eccb;
+  transform: translate(-50%, -50%) rotate(-3deg);
+}
