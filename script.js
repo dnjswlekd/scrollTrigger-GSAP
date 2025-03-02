@@ -4,7 +4,7 @@ $(function () {
   gsap
     .timeline({
       scrollTrigger: {
-        trigger: '.cont02 ul',
+        trigger: '.cont02',
         start: 'top 90%',
         end: '20% 100%',
         scrub: 2,
